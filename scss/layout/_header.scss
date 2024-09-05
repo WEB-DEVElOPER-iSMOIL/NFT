@@ -1,0 +1,33 @@
+.header {
+    background-color: #2B2B2B;
+    padding: 34px 0 34px 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.head__nav-link {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    transition: all 0.2s linear;
+}
+
+.head__nav-link:hover {
+    color: #A259FF;
+}
+
+.head__btn {
+    width: 152px;
+    height: 60px;
+}

@@ -1,0 +1,152 @@
+@import './base/reset';
+@import './layout/header';
+@import './components/buttons';
+@import './layout/hero';
+@import './layout/fotter';
+
+.hamburger-menu {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+@media only screen and (max-width: 817px) {
+    .head__nav-list {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .hero__img {
+        background-image: url(../images/hero-table-img.png);
+        background-repeat: no-repeat;
+        width: 379px;
+        height: 615px;
+    }
+
+    .hero__content {
+        max-width: 325px;
+        margin: 0 auto;
+    }
+
+    .hero__title {
+        font-family: Work Sans;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 45.6px;
+    }
+
+    .hero__text {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+    }
+
+    .hero__input {
+        width: 300px;
+        height: 46px;
+    }
+
+    .hero__input2 {
+        width: 300px;
+    }
+
+    .hero__input3 {
+        width: 300px;
+    }
+
+    .hero__input4 {
+        width: 300px;
+    }
+
+    .hero__btn {
+        width: 340px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__left {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer__left-subtext {
+        width: 100%;
+    }
+
+    .footer__center {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 704px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero__img {
+        background-image: url(../images/hero-mobile-img.png);
+        background-repeat: no-repeat;
+        width: 375px;
+        height: 232px;
+        margin-bottom: 30px;
+    }
+
+    .hero__title {
+        font-family: Work Sans;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 45.6px;
+    }
+
+    .hero__text {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+    }
+
+    .hero__input {
+        width: 270px;
+    }
+
+    .hero__input2 {
+        width: 270px;
+    }
+
+    .hero__input3 {
+        width: 270px;
+    }
+
+    .hero__input4 {
+        width: 270px;
+    }
+
+    .hero__btn {
+        width: 310px;
+    }
+
+    .hero__form {
+        margin-bottom: 48px;
+    }
+
+    .footer__left {
+        padding-left: 30px;
+    }
+
+    .footer__center {
+        padding-left: 30px;
+    }
+
+    .footer__right {
+        padding-left: 30px;
+    }
+}
